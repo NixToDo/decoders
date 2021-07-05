@@ -42,6 +42,12 @@ Faxes from GB's Northwood uses for the end mark a series of increasing tons, not
 
 **cmdfax** uses **libsamplerate** and **kissfft**
 * Install the development package for **libsamplerate**
-* From **kissfft** project (https://github.com/mborgerding/kissfft), copy the files kiss_fft.c, kiss_fft.h, kiss_fftr.c and kiss_fftr.h in your build directory
+* From **kissfft** project (https://github.com/mborgerding/kissfft), copy following files in your build directory:<br>
+  kiss_fft.c<br>
+  kiss_fft.h<br>
+  kiss_fftr.c<br>
+  kiss_fftr.h<br>
+  _kiss_fft_guts.h<br>
+  kiss_fft_log.h<br>
 * type **make**
 
