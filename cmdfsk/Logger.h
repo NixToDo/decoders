@@ -43,7 +43,7 @@ class Logger {
       NONE
     };
 
-    Logger(const char * LogFile = "stderr", Level lev = DEBUG);
+    Logger(const char * LogFile = "stderr", Level lev = WARNING);
     ~Logger();
     void  setLevel(Level lev) { level = lev; }
     void  setLevel(const char * cLevel);
